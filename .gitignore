@@ -1,0 +1,12 @@
+
+venv/
+
+.idea/
+
+hurd/__pycache__/
+
+models/__pycache__/
+
+wandb/
+
+artifacts/
