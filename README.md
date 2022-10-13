@@ -7,7 +7,9 @@ This project uses Weights and Biases (wandb.ai) for logging.
 View the project [here](https://wandb.ai/brookeryan/choices13k-optimal/). 
 
 # References 
-Thanks to Joshua Peterson for providing the wonderful HURD library code. I copied the relevant files into the /hurd/ directory, and altered or extended a few functions to tailor it to the project.  
+This project uses the choices13k dataset [3], provided in the Peterson et al. paper 'Using large-scale experiments and machine learning to discover theories of human decision-making' [1].
+
+Further thanks to Joshua Peterson for providing the wonderful HURD library code, which contains many helpful pre-built functions for manipulating the dataset [2]. I copied the relevant files into the /hurd/ directory, and altered or extended a few functions to tailor it to the project.  
 
 [4] used for determining how to hook up wandb logging to flax training loops. 
 
